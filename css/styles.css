@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Piazzolla', serif;
+}
+
+.section_title {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 1px 30px;
+    margin-bottom: 2px;
+}
+
+/*for desktop*/
+@media(min-width: 992px) {
+    section {
+        position: relative;
+        width: 30%;
+        border: 1px solid black;
+        background: gray;
+        float: left;
+        padding: 40px 16px 16px 16px;
+    }
+
+    .article_1 {
+        margin: 2.5% 0 0 2.5%;
+    }
+
+    .article_2 {
+        margin: 2.5% 2.5% 0 2.5%;
+    }
+
+    .article_3 {
+        margin: 2.5% 2.5% 0 0;
+    }
+
+    .article_1 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: pink;
+    }
+
+    .article_2 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #d93802;
+        color: white;
+    }
+
+    .article_3 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #dbdbb6;
+    }
+}
+
+/*for tablet*/
+@media(min-width: 768px) and (max-width: 991px) {
+    section {
+        position: relative;
+        width: 45%;
+        border: 1px solid black;
+        background: gray;
+        float: left;
+        padding: 40px 16px 16px 16px;
+    }
+
+    .article_1 {
+        margin: 0 3.33%;
+    }
+
+    .article_2 {
+        margin-right: : 3.33%;
+    }
+
+    .article_3 {
+        clear: left;
+        width: 93.34%;
+        margin: 3.33%;
+    }
+
+    .article_1 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: pink;
+    }
+
+    .article_2 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #d93802;
+        color: white;
+    }
+
+    .article_3 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #dbdbb6;
+    }
+}
+
+/*for mobile*/
+@media(max-width: 767px) {
+    section {
+        position: relative;
+        width: 94%;
+        border: 1px solid black;
+        background: gray;
+        float: left;
+        padding: 40px 16px 16px 16px;
+    }
+
+    .article_1 {
+        margin: 0 3%;
+    }
+
+    .article_2 {
+        margin: 3%;
+    }
+
+    .article_3 {
+        margin: 0 3% 3% 3%;
+    }
+
+    .article_1 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: pink;
+    }
+
+    .article_2 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #d93802;
+        color: white;
+    }
+
+    .article_3 .section_title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #dbdbb6;
+    }
+}
